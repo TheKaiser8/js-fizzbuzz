@@ -9,9 +9,38 @@
 /*----------------
     TYPOGRAPHY
 -----------------*/
+h1 {
+    font-size: 80px;
+}
 /*----------------
     COMMON
 -----------------*/
+body {
+    background-color: #083b4c;
+}
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+.scoreboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.scoreboard__item {
+    height: 10rem;
+    width: 10rem;
+    background-color: #fff;
+    text-align: center;
+    line-height: 10rem;
+    margin: .625rem;
+}
 /*----------------
     COLORS
 -----------------*/
+.text-white {
+    color: #fff;
+}
