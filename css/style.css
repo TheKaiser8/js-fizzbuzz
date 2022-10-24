@@ -31,11 +31,12 @@ body {
     justify-content: center;
 }
 .scoreboard__item {
-    height: 10rem;
-    width: 10rem;
-    background-color: #fff;
+    height: 9rem;
+    width: 9rem;
+    /* background-color: #fff; */
+    font-size: 1.5rem;
     text-align: center;
-    line-height: 10rem;
+    line-height: 9rem;
     margin: .625rem;
 }
 /*----------------
@@ -43,4 +44,22 @@ body {
 -----------------*/
 .text-white {
     color: #fff;
+}
+.number-bg-color {
+    background-color: #1389b2;
+}
+.fizz-bg-color {
+    background-color: #0cd6a1;
+}
+.buzz-bg-color {
+    background-color: #ffd166;
+}
+.fizzbuzz-bg-color {
+    background-color: #f0466f;
+}
+/*----------------
+    HEADER
+-----------------*/
+header {
+    padding: 1.875rem 0;
 }

@@ -13,7 +13,7 @@
 // BONUS 1: Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
 // BONUS 2: Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
 
-const scoreboard = document.querySelector('.scoreboard')
+const scoreboard = document.querySelector('.scoreboard');
 
 for( let i = 1; i <= 100; i++ ) {
     const scoreboardItem = document.createElement('div');
@@ -23,14 +23,18 @@ for( let i = 1; i <= 100; i++ ) {
 
     if( i % 15 === 0 ) {
         scoreboardItem.innerHTML = "FizzBuzz";
+        scoreboardItem.classList.add('fizzbuzz-bg-color');
         console.log("FizzBuzz");
     } else if( i % 3 === 0 ) {
         scoreboardItem.innerHTML = "Fizz";
+        scoreboardItem.classList.add('fizz-bg-color');
         console.log("Fizz");
     } else if( i % 5 === 0 ) {
         scoreboardItem.innerHTML = "Buzz";
+        scoreboardItem.classList.add('buzz-bg-color');
         console.log("Buzz");
     } else {
+        scoreboardItem.classList.add('number-bg-color');
         console.log(i);
     }
 }
