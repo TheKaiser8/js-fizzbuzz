@@ -9,6 +9,9 @@
 /*----------------
     TYPOGRAPHY
 -----------------*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
 h1 {
     font-size: 80px;
 }
